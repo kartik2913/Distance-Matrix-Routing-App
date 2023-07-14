@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  height: 400px;
+  width: 1000px;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+}
+
+.marker {
+  background-size: cover;
+  width: 15px;
+  height: 15px;
+  background-color: yellow;
+  border-radius: 11px;
+  border: solid 3px darkslategray;
+}
+
+
+.marker-delivery {
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.marker-label {
+  font-weight: bold;
+  font-size: 14px;
+  color: #000000;
+}
